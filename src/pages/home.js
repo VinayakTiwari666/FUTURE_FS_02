@@ -35,9 +35,7 @@ const categories = [...new Set(products.map(p => p.category))];
 
 
 
-const filteredProducts = products.filter((product) =>
-  product.title.toLowerCase().includes(searchTerm.toLowerCase())
-);
+
 return (
   <div style={styles.page}>
     <div style={styles.pageWrapper}>
@@ -185,6 +183,7 @@ const styles = {
     borderRadius: "2px",
   },
 };
+
 
 
 
