@@ -103,7 +103,7 @@ export default ProductDetail;
 const styles = {
   container: {
     display: "grid",
-    gridTemplateColumns: "1fr 1fr",
+    gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
     gap: "40px",
     padding: "40px",
     maxWidth: "1100px",
@@ -214,4 +214,5 @@ reviewText: {
   lineHeight: "1.6",
   fontSize: "14px",
 },
+
 };
